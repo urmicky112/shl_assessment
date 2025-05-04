@@ -142,3 +142,9 @@ python app/evaluation.py
    Average Precision@5: 0.20
    Average Recall@5: 1.00
 ```
+
+## 🧠 Architecture Diagram
+
+![Architecture Diagram](assets/architecture-diagram.png)
+
+[Click here to edit/view on Excalidraw](https://excalidraw.com/#json=Ow8k89122YRjdC2_nx97I,-6Xs6UtLraoPKy4tqY1TNA)
