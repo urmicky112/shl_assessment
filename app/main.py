@@ -20,6 +20,17 @@ app = FastAPI(
     version="1.0.0"
 )
 
+# CORS middleware setup
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 # Initialize components
 vector_db = VectorDB()
 gemini_processor = GeminiProcessor()
