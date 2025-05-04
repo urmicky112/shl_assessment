@@ -13,6 +13,7 @@
   - [Endpoints](#endpoints)
   - [Request/Response Examples](#requestresponse-examples)
 - [Running the UI](#-running-the-ui)
+- [Evaluation](#-evaluation)
 
 ## 🌟 Features
 - **Natural Language Processing**: Understands job descriptions in plain English
@@ -113,3 +114,31 @@ Streamlit UI
 streamlit run ui.py
 ```
 Access Streamlit UI at: http://localhost:8501
+
+### 📊 Evaluation
+
+To assess the recommendation quality, we include an evaluation module using curated test queries.
+
+#### 📁 Files:
+- `app/evaluation.py`: evaluation script
+- `data/test_queries.json`: benchmark test queries and expected URLs
+
+#### 📐 Metrics:
+- `Precision@5`
+- `Recall@5`
+
+#### ▶️ How to Run:
+```bash
+python app/evaluation.py
+```
+
+#### 📈 Sample Output:
+```text
+🔹 Query: Need to assess Java skills of entry-level developers.
+   Precision@5: 0.20
+   Recall@5: 1.00
+
+📊 Final Evaluation:
+   Average Precision@5: 0.20
+   Average Recall@5: 1.00
+```
