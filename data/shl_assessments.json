@@ -1,0 +1,92 @@
+[
+    {
+      "name": "Automata - Fix (New)",
+      "url": "https://www.shl.com/solutions/products/product-catalog/view/automata-fix-new/",
+      "adaptive_support": "No",
+      "description": "Assessment for fixing code issues",
+      "duration": "N/A",
+      "remote_support": "Yes",
+      "test_type": ["Technical Skills"]
+    },
+    {
+      "name": "Core Java (Entry Level) (New)",
+      "url": "https://www.shl.com/solutions/products/product-catalog/view/core-java-entry-level-new/",
+      "adaptive_support": "No",
+      "description": "Entry level Java programming assessment",
+      "duration": "N/A",
+      "remote_support": "Yes",
+      "test_type": ["Technical Skills"]
+    },
+    {
+      "name": "Technology Professional 8.0 Job Focused Assessment",
+      "url": "https://www.shl.com/solutions/products/product-catalog/view/technology-professional-8-0-job-focused-assessment/",
+      "adaptive_support": "No",
+      "description": "Assesses key behavioral attributes for technology professionals",
+      "duration": "N/A",
+      "remote_support": "Yes",
+      "test_type": ["Competencies", "Personality & Behaviour"]
+    },
+    {
+        "name": "Computer Science (New)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/computer-science-new/",
+        "adaptive_support": "No",
+        "description": "General computer science knowledge assessment",
+        "duration": "N/A",
+        "remote_support": "Yes",
+        "test_type": ["Knowledge & Skills"]
+      },
+    {
+      "name": "Entry Level Sales 7.1 (International)",
+      "url": "https://www.shl.com/solutions/products/product-catalog/view/entry-level-sales-7-1/",
+      "adaptive_support": "No",
+      "description": "Assessment for entry-level sales positions",
+      "duration": "60 minutes",
+      "remote_support": "Yes",
+      "test_type": ["Sales Skills"]
+    },
+    {
+      "name": "Motivation Questionnaire MQMS",
+      "url": "https://www.shl.com/solutions/products/product-catalog/view/motivation-questionnaire-mqm5/",
+      "adaptive_support": "No",
+      "description": "Measures work motivations and drivers",
+      "duration": "60 minutes",
+      "remote_support": "Yes",
+      "test_type": ["Personality"]
+    },
+    {
+      "name": "Verify - Verbal Ability - Next Generation",
+      "url": "https://www.shl.com/solutions/products/product-catalog/view/verify-verbal-ability-next-generation/",
+      "adaptive_support": "Yes",
+      "description": "Measures verbal reasoning ability",
+      "duration": "30-40 minutes",
+      "remote_support": "Yes",
+      "test_type": ["Cognitive Ability"]
+    },
+    {
+      "name": "Administrative Professional - Short Form",
+      "url": "https://www.shl.com/solutions/products/product-catalog/view/administrative-professional-short-form/",
+      "adaptive_support": "No",
+      "description": "Assessment for administrative professionals",
+      "duration": "30-40 minutes",
+      "remote_support": "Yes",
+      "test_type": ["Administrative Skills"]
+    },
+    {
+      "name": "Occupational Personality Questionnaire OPQ32r",
+      "url": "https://www.shl.com/solutions/products/product-catalog/view/occupational-personality-questionnaire-opq32r/",
+      "adaptive_support": "No",
+      "description": "Measures personality traits relevant to work",
+      "duration": "90 minutes",
+      "remote_support": "Yes",
+      "test_type": ["Personality"]
+    },
+    {
+      "name": "Automata Selenium",
+      "url": "https://www.shl.com/solutions/products/product-catalog/view/automata-selenium/",
+      "adaptive_support": "No",
+      "description": "Selenium automation testing assessment",
+      "duration": "60 minutes",
+      "remote_support": "Yes",
+      "test_type": ["Technical Skills"]
+    }
+  ]
