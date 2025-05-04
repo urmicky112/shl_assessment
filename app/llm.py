@@ -131,23 +131,21 @@ class GeminiProcessor:
             logger.info(refined_items)
             refined_assessments = []
             for item in refined_items:
-                if not item:
+                if not item or not isinstance(item, dict):
                     continue
                 try:
                     # Normalize field names (Gemini might use different casing)
                     item_url = item.get('url') or item.get('URL')
                     item_score = item.get('score') or item.get('Score')
-                    
-                    if not item_url or not item_score:
+
+                    if not item_url or item_score is None:
                         continue
-                    
+
                     # Find matching original assessment
-                    original = None
-                    for a in original_assessments:
-                        if a.url == item_url:
-                            original = a
-                            break
-                    
+                    original = next((a for a in original_assessments if a.url == item_url), None)
+                    if not original:
+                        continue
+
                     refined_assessments.append(Assessment(
                         url=original.url,
                         name=original.name,
@@ -158,8 +156,7 @@ class GeminiProcessor:
                         test_type=original.test_type,
                         score=float(item_score)
                     ))
-                except (KeyError, StopIteration, ValidationError) as e:
-                    print("This is the error", e)
+                except (KeyError, StopIteration, ValidationError, TypeError) as e:
                     logger.warning(f"Failed to parse assessment: {str(e)}")
             
             return refined_assessments[:len(original_assessments)//2]  # Return top half
