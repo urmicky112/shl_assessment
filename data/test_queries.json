@@ -1,23 +1,32 @@
 [
-    {
-        "query": "I am hiring for Java developers who can also collaborate effectively with my business teams. Looking for an assessment(s) that can be completed in 40 minutes.",
-        "relevant_assessments": [
-            "https://www.shl.com/solutions/products/product-catalog/view/automata-fix-new/",
-            "https://www.shl.com/solutions/products/product-catalog/view/core-java-entry-level-new/",
-            "https://www.shl.com/solutions/products/product-catalog/view/technology-professional-8-0-job-focused-assessment/"
-        ]
-    },
-    {
-        "query": "I want to hire new graduates for a sales role in my company, the budget is for about an hour for each test. Give me some options",
-        "relevant_assessments": [
-            "https://www.shl.com/solutions/products/product-catalog/view/entry-level-sales-7-1/"
-        ]
-    },
-    {
-        "query": "ICICI Bank Assistant Admin, Experience required 0-2 years, test should be 30-40 mins long",
-        "relevant_assessments": [
-            "https://www.shl.com/solutions/products/product-catalog/view/verify-verbal-ability-next-generation/",
-            "https://www.shl.com/solutions/products/product-catalog/view/administrative-professional-short-form/"
-        ]
-    }
+  {
+    "query": "Need to assess Java skills of entry-level developers.",
+    "relevant_assessments": [
+      "https://www.shl.com/solutions/products/product-catalog/view/core-java-entry-level-new/"
+    ]
+  },
+  {
+    "query": "Looking for automation testing candidates skilled in Selenium.",
+    "relevant_assessments": [
+      "https://www.shl.com/solutions/products/product-catalog/view/automata-selenium/"
+    ]
+  },
+  {
+    "query": "I want a test to assess a candidate's verbal reasoning ability.",
+    "relevant_assessments": [
+      "https://www.shl.com/solutions/products/product-catalog/view/verify-verbal-ability-next-generation/"
+    ]
+  },
+  {
+    "query": "Looking for assessment of soft skills and behavioral fit for tech candidates.",
+    "relevant_assessments": [
+      "https://www.shl.com/solutions/products/product-catalog/view/technology-professional-8-0-job-focused-assessment/"
+    ]
+  },
+  {
+    "query": "Hiring for a sales role. Need an aptitude test for freshers.",
+    "relevant_assessments": [
+      "https://www.shl.com/solutions/products/product-catalog/view/entry-level-sales-7-1/"
+    ]
+  }
 ]
