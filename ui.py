@@ -3,7 +3,7 @@ import requests
 import json
 
 # Configuration
-FASTAPI_URL = "https://web-production-cd9b.up.railway.app"  # Updated to deployed backend
+FASTAPI_URL = "http://localhost:8000"
 
 # UI Setup
 st.set_page_config(page_title="SHL Assessment Recommender", layout="wide")
